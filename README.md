@@ -1,10 +1,10 @@
 # ShopEase - MERN Stack E-Commerce Website
 
-ShopEase is a full-stack e-commerce web application built using the MERN stack. It provides a complete online shopping experience including product browsing, search and filtering, shopping cart management, user authentication, checkout, order management, and admin controls.
+ShopEase is a full-stack e-commerce web application built using the MERN stack. It provides a responsive and user-friendly shopping experience with product browsing, search and filtering, shopping cart management, authentication, checkout, order history, and admin product/order management.
 
-## Features
+## 🚀 Features
 
-### User Features
+### 👤 User Features
 
 - User registration and login
 - JWT-based authentication
@@ -13,34 +13,38 @@ ShopEase is a full-stack e-commerce web application built using the MERN stack. 
 - Filter products by category
 - Sort products by price
 - View product details
+- Stock availability display
 - Add products to cart
-- Update cart quantities
-- Stock availability management
+- Increase/decrease cart quantity
+- Remove products from cart
+- Cart persistence using localStorage
 - Buy Now functionality
-- Checkout and delivery information
+- Checkout with delivery information
 - Place orders
 - View order history
-- Order status tracking
-- Responsive design for mobile, tablet, and desktop
+- Track order status
+- Responsive mobile-friendly design
 
-### Admin Features
+### 🛠️ Admin Features
 
 - Admin authentication and authorization
-- Add products
-- Edit products
+- Admin-only dashboard access
+- Add new products
+- Edit existing products
 - Delete products
-- Manage product stock
 - View all customer orders
 - Update order status
+- Stock management
+- Role-based access control
 
-## Tech Stack
+## 🧰 Tech Stack
 
 ### Frontend
 
 - React.js
 - React Router
-- Tailwind CSS
 - Axios
+- Tailwind CSS
 - Vite
 
 ### Backend
@@ -51,8 +55,25 @@ ShopEase is a full-stack e-commerce web application built using the MERN stack. 
 - Mongoose
 - JWT
 - bcryptjs
+- CORS
+- dotenv
 
-## Project Structure
+## 🔑 Demo Credentials
+
+### User Account
+
+Email: your-email
+Password: your-password
+
+### Admin Account
+
+Name: Demo Admin
+Email: demo-admin@example.com
+Password: DemoAdmin123
+
+> These credentials are provided for project evaluation and demonstration purposes.
+
+## 📁 Project Structure
 
 ```text
 MERN-Ecommerce/
@@ -63,20 +84,22 @@ MERN-Ecommerce/
 │   │   ├── components/
 │   │   ├── context/
 │   │   ├── pages/
-│   │   ├── services/
 │   │   ├── App.jsx
 │   │   ├── App.css
 │   │   ├── index.css
 │   │   └── main.jsx
+│   │
 │   ├── package.json
+│   ├── package-lock.json
 │   └── vite.config.js
 │
 ├── backend/
+│   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── middleware/
 │   ├── server.js
 │   ├── package.json
-│   └── .env
+│   └── package-lock.json
 │
+├── .gitignore
 └── README.md
