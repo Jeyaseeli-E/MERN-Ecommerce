@@ -58,6 +58,21 @@ ShopEase is a full-stack e-commerce web application built using the MERN stack. 
 - CORS
 - dotenv
 
+## 🔑 Demo Credentials
+
+### User Account
+
+Email: your-email
+Password: your-password
+
+### Admin Account
+
+Name: Demo Admin
+Email: demo-admin@example.com
+Password: DemoAdmin123
+
+> These credentials are provided for project evaluation and demonstration purposes.
+
 ## 📁 Project Structure
 
 ```text
