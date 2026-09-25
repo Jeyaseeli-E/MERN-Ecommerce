@@ -161,7 +161,7 @@ function Admin() {
 
       if (editingId) {
         await axios.put(
-          `http://localhost:5000/api/products/${editingId}`,
+          `${import.meta.env.VITE_API_URL}/api/products/${editingId}`,
           productData,
           {
             headers: {
@@ -173,7 +173,7 @@ function Admin() {
         setMessage("Product updated successfully! 🎉");
       } else {
         await axios.post(
-          "http://localhost:5000/api/products",
+          `${import.meta.env.VITE_API_URL}/api/products`,
           productData,
           {
             headers: {
